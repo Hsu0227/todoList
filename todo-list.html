@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo list</title>
+    <link rel="stylesheet" href="todo-list.css" />
+    <script src="todo-list.js" defer></script>
+  </head>
+  <body>
+    <h1 data-text="Todo List">Todo List</h1>
+    <div class="wrapper">
+      <form>
+        <input
+          id="todo-input"
+          type="text"
+          placeholder="Add a new todo"
+          autocomplete="off"
+        />
+
+        <button class="add-todo-button">ADD</button>
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
+  </body>
+</html>
